@@ -141,7 +141,7 @@ def station_stats(df):
 
 
     # TO DO: display most commonly used end station
-    
+
     commonEndStation = df['End Station'].mode()[0]
     print('the most end Station:\t', commonEndStation)
 
@@ -149,7 +149,7 @@ def station_stats(df):
     # TO DO: display most frequent combination of start station and end station trip
 
     groupField=df.groupby(['Start Station','End Station'])
-    
+
     frequentCombination = groupField.size().sort_values(ascending=False).head(1)
     print('The Most Commonly combination of Start Station and End Station trip:\t', frequentCombination)
 
@@ -234,7 +234,7 @@ def displayRawData(df):
         elif DisplYRawData.lower() == 'no':
             break
         else:
-            print('it’s wrong answer or there is no avalible data to view  ')
+            print('it is wrong answer or there is no avalible data to view  ')
 
 
 def main():
@@ -255,7 +255,7 @@ def main():
             break
 
 
-        
+
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
@@ -263,4 +263,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
