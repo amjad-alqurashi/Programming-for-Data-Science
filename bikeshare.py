@@ -29,7 +29,7 @@ def get_filters():
     while True:
       city = input("\n choose one of folowing cities (new york city , washington or chicago) that you want to analyze\n")
       if city.lower() not in CITY_DATA[city.lower()]:
-        print("its wrong ,Please try again to enter one of folowing cities new york city , washington or chicago\n")
+        print("it's wrong ,Please try again to enter one of folowing cities new york city , washington or chicago\n")
         continue
       else:
         break
@@ -39,7 +39,7 @@ def get_filters():
     while True:
       month = input("\n Enter the name of the month that you want to analyze (choose 'all' or from january to june \n")
       if month not in monthdata:
-        print("its wrong ,Please enter either 'all' or choose one of the months from january to june \n")
+        print("it is wrong ,Please enter either 'all' or choose one of the months from january to june \n")
         continue
       else:
         break
@@ -49,7 +49,7 @@ def get_filters():
     while True:
       day = input("\n Enter the name of the day that you want to analyze (choose 'all' or from monday to sunday \n")
       if day not in daydata:
-        print("its wrong ,Please enter either 'all' or choose one of the Days from monday to sunday \n")
+        print("it's wrong ,Please enter either 'all' or choose one of the Days from monday to sunday \n")
         continue
       else:
         break
