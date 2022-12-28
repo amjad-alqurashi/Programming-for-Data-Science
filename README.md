@@ -51,3 +51,6 @@ counts of each user type counts of each gender (only available for NYC and Chica
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### about me
+I'm Amjad Alqurashi
+
