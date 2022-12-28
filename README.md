@@ -1,4 +1,4 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+Programming-for-Data-Science
 
 ### Date created
 28 Dec 2022.
@@ -48,9 +48,5 @@ counts of each user type counts of each gender (only available for NYC and Chica
 3-new_york_city
 4-washington
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
-### about me
-I'm Amjad Alqurashi
 
